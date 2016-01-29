@@ -28,7 +28,6 @@ if (typeof jQuery !== 'undefined') {
 if(!$('#shopifyjs').length){
 var d = document,url = d.URL;
 if(url.indexOf("myshopify.com/admin")>1){
-	alert('123');
 
 	var _savelabel = 'Save',
 	_editlabel = 'Edit',
